@@ -14,7 +14,9 @@ MAINTAINER thdonath
 #
 
 # /src ist schon als WORKDIR gesetzt
-COPY testusers.js testusers.js
+COPY * ./
+
+RUN npm install	 
 
 # sofort mit Container Start meine App starten
 ENTRYPOINT ["node", "testusers.js"]

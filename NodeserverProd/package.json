@@ -1,0 +1,17 @@
+{
+  "name": "ora_rest_server_dev",
+  "private": true,
+  "version": "0.0.0",
+  "author": "thodo",
+  "description": "A starter project for Node.js + Oracle + REST + Docker",
+  "keywords": ["node", "docker", "oracle", "REST"],
+  "repository": "",
+  "license": "",
+  "devDependencies": {
+    "oracledb": "^1.7.1",
+    "express": "^4.13.4"
+  },
+  "scripts": {
+    "start": "node testusers.js"
+  }
+}
