@@ -12,6 +12,6 @@
     "express": "^4.13.4"
   },
   "scripts": {
-    "start": "testusers.js"
+    "start": "node testusers.js"
   }
 }
